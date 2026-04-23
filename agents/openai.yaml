@@ -1,0 +1,6 @@
+interface:
+  display_name: "Linked Source Routing"
+  short_description: "Classify supplied URLs and choose the right acquisition path"
+  default_prompt: "Use $linked-source-routing to classify these links and decide whether they should go through direct fetch, $web-access, $video-to-summary, or browser troubleshooting."
+policy:
+  allow_implicit_invocation: true
